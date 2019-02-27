@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#from pytextgears.error_handling import *
+from pytextgears.error_handling import *
 
 import requests
 import json

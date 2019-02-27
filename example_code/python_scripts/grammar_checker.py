@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from pytextgears import TextGear
-from pytextgear.utils import *
+from pytextgears.utils import *
 
 
 textgear = TextGear("insert api key here")
