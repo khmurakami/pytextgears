@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from pytextgears import TextGear
-from pytextgears.utils import *
+from .utils import *
 
 import os
 
