@@ -12,7 +12,6 @@ API_KEY = os.environ['PYTEXTGEARS_KEY']
 
 class TestTextGearMethods(unittest.TestCase):
 
-
     def test_grammar_check(self):
 
         textgear = TextGear(API_KEY)
@@ -20,7 +19,7 @@ class TestTextGearMethods(unittest.TestCase):
 
         error_json = raw_json['errors']
 
-        self.self.assertEqual(2, len(error_json))
+        self.assertEqual(2, len(error_json))
 
 if __name__ == '__main__':
     unittest.main()
