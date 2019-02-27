@@ -4,6 +4,15 @@
 
 def grammar_error_checker(raw_json):
 
+    '''Checks to the see the key pair in the raw json 'result' is true
+
+    Args:
+        raw_json (dict): Raw JSON output from grammar checker
+
+    Return boolean: True if the result is true. False if result is false
+
+    '''
+
     status = raw_json['result']
     if status is "true":
         return True

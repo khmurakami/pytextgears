@@ -18,7 +18,9 @@ def return_error_list(raw_json):
 
     '''
 
+    # Get the 'error' json result
     error_list = raw_json['errors']
+
     return error_list
 
 def return_first_error(raw_json):
@@ -30,8 +32,12 @@ def return_first_error(raw_json):
     Return first_error (dict): Raw JSON dict
 
     '''
+
     error_list = raw_json['errors']
+
+    # Return the first error in the list
     first_error = error_list[0]
+
     return first_error
 
 def return_all_bad_error_text(raw_json):
@@ -63,6 +69,7 @@ def return_all_suggestions(raw_json):
     error_list = raw_json['errors']
     suggestions_text_list = []
 
+    # Append all 'better' json to suggestions_text_list
     for suggestions in error_list:
         suggestions_text_list.append(suggestions['better'])
 
@@ -75,8 +82,10 @@ def return_all_error_to_suggestion(raw_json):
     Args: raw_json (dict): Raw JSON output from grammar checker
 
     Return result (dict): Dict of error to
+
     '''
 
+    # Use other json_parser functions to get all the bad and suggestion jsons
     bad_error_text_list = return_all_bad_error_text(raw_json)
     suggestions_text_list = return_all_suggestions(raw_json)
 

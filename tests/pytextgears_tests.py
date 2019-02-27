@@ -1,15 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# Check if all the libraries import correctly
 from pytextgears import TextGear
 from pytextgears.utils import *
 from pytextgears.error_handling import *
 from pytextgears.json_parser import *
 
+# Import unittest
 import unittest
 import os
 
 # Insert your own key as a string here
+# Or export PYTEXTGEARS_KEY in your shell with the API Key
 API_KEY = os.environ['PYTEXTGEARS_KEY']
 
 class TestTextGearMethods(unittest.TestCase):
