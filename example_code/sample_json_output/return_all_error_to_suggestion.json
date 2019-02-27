@@ -1,0 +1,26 @@
+{
+    "errors": [
+        {
+            "bad": "is",
+            "better": [
+                "am"
+            ],
+            "id": "e1695167764",
+            "length": 2,
+            "offset": 2,
+            "type": "grammar"
+        },
+        {
+            "bad": "engeneer",
+            "better": [
+                "engineer",
+                "engender"
+            ],
+            "id": "e1066972643",
+            "length": 8,
+            "offset": 8,
+            "type": "spelling"
+        }
+    ],
+    "result": true
+}

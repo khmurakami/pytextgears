@@ -9,4 +9,4 @@ textgear = TextGear("insert api key here")
 raw_json = textgear.grammar_checker("I is an engeneer")
 print(raw_json)
 
-return_json_file(raw_json, "grammar_checker.json")
+return_json_file(raw_json, "../sample_json_output/grammar_checker.json")

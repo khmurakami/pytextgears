@@ -27,3 +27,5 @@ $ python3 -m virutalenv env
 $ source env/bin/activate
 $ python3 setup.py install
 ```
+
+## Using the Python Wrapper

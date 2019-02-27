@@ -1,4 +1,6 @@
-#from pytextgears import TextGear
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 
 def grammar_error_checker(raw_json):
 

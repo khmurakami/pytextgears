@@ -70,15 +70,15 @@ def return_all_suggestions(raw_json):
 
 def return_all_error_to_suggestion(raw_json):
 
-    '''Return a list of dicts pairs of error to suggestions
+    '''Return a dict of error to suggestions
 
     Args: raw_json (dict): Raw JSON output from grammar checker
 
-    Return result (list): List of JSON dicts
+    Return result (dict): Dict of error to
     '''
 
     bad_error_text_list = return_all_bad_error_text(raw_json)
-    sugesstions_text_list = return_all_suggestions(raw_json)
+    suggestions_text_list = return_all_suggestions(raw_json)
 
     # Pair the bar error list as keys to sugesstions
     result = {bad_error_text_list[i]: suggestions_text_list[i] for i in range(len(bad_error_text_list))}
