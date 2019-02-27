@@ -4,9 +4,9 @@
 from pytextgears import TextGear
 from pytextgear.utils import *
 
-
-textgear = TextGear("insert api key here")
+textgear = TextGear("")
 raw_json = textgear.grammar_checker("I is an engeneer")
-print(raw_json)
+result = return_all_error_to_sugesstion(raw_json)
+print(result)
 
-return_json_file(raw_json, "grammar_checker.json")
+return_json_file(raw_json, "return_all_error_to_suggestion.json")
