@@ -6,7 +6,7 @@ from pytextgear.utils import *
 
 
 textgear = TextGear()
-raw_json = textgear.grammar_check("I in am engeer")
+raw_json = textgear.grammar_checker("I in am engeer")
 print(raw_json)
 
 return_json_file(raw_json, "grammar_check.json")

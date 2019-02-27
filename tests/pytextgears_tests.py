@@ -12,10 +12,10 @@ API_KEY = os.environ['PYTEXTGEARS_KEY']
 
 class TestTextGearMethods(unittest.TestCase):
 
-    def test_grammar_check(self):
+    def test_grammar_checker(self):
 
         textgear = TextGear(API_KEY)
-        raw_json = textgear.grammar_check("I is an engeneer")
+        raw_json = textgear.grammar_checker("I is an engeneer")
 
         error_json = raw_json['errors']
 
