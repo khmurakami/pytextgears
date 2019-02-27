@@ -3,6 +3,8 @@
 
 from pytextgears import TextGear
 from pytextgears.utils import *
+from pytextgears.error_handling import *
+from pytextgears.json_parser import *
 
 import unittest
 import os
