@@ -10,4 +10,4 @@ raw_json = textgear.grammar_checker("I is an engeneer")
 result = return_all_error_to_suggestion(raw_json)
 print(result)
 
-return_json_file(raw_json, "../sample_json_output/return_all_error_to_suggestion.json")
+return_json_file(result, "../sample_json_output/return_all_error_to_suggestion.json")
