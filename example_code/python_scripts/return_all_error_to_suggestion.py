@@ -4,7 +4,7 @@
 from pytextgears import TextGear
 from pytextgears.utils import *
 
-textgear = TextGear("")
+textgear = TextGear("3gTfp73zGgKSZ5CU")
 raw_json = textgear.grammar_checker("I is an engeneer")
 result = return_all_error_to_sugesstion(raw_json)
 print(result)

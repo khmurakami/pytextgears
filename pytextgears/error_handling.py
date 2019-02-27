@@ -1,6 +1,7 @@
-import json
+from pytextgears import TextGear
 
 def grammar_error_checker(raw_json):
+
     status = raw_json['result']
     if status is "true":
         return True

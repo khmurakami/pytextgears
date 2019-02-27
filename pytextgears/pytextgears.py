@@ -38,6 +38,6 @@ class TextGear():
                 }
 
         r = requests.get(url, params=data)
-        #http_error_handler(r.status_code)
+        http_error_handler(r.status_code)
         raw_json = r.json()
         return raw_json
