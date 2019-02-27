@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from pytextgears import TextGear
+from pytextgears.pytextgears import TextGear
 from pytextgears.utils import *
 from pytextgears.error_handling import *
 from pytextgears.json_parser import *
