@@ -1,5 +1,7 @@
 # pytextgears
 
+[![Build Status](https://travis-ci.com/khmurakami/pytextgears.svg?token=GdqQUUu1xsypr1oorMoh&branch=master)](https://travis-ci.com/khmurakami/pytextgears)
+
 Python 3 Wrapper for TextGears
 
 ## Requirements
