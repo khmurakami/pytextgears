@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/khmurakami/pytextgears.svg?token=GdqQUUu1xsypr1oorMoh&branch=master)](https://travis-ci.com/khmurakami/pytextgears)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CodeFactor](https://www.codefactor.io/repository/github/khmurakami/pytextgears/badge)](https://www.codefactor.io/repository/github/khmurakami/pytextgears)
 
 pytextgears is a Python 2 and 3 library to access the TextGears API. This library allows you to access their one API call which is to check your grammar. This library also parses the JSON result.
 
